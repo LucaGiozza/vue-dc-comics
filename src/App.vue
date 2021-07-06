@@ -10,6 +10,7 @@
 
        <footer>
           <Footer/>
+          <FooterInferiore/>
 
        </footer>
 
@@ -19,10 +20,11 @@
 </template>
 
 <script>
- import Header from './components/Header.vue';
+  import Header from './components/Header.vue';
   import PrimaSezione from './components/PrimaSezione.vue';
-   import SecondaSezione from './components/SecondaSezione.vue';
+  import SecondaSezione from './components/SecondaSezione.vue';
   import Footer from './components/Footer.vue';
+  import FooterInferiore from './components/FooterInferiore.vue';
 
 export default {
   name: 'App',
@@ -30,7 +32,8 @@ export default {
      Header,
       PrimaSezione,
       SecondaSezione,
-      Footer
+      Footer,
+      FooterInferiore
   }
 }
 </script>
