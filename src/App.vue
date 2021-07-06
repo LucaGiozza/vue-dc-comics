@@ -4,7 +4,8 @@
        <Header/>
 
         <main>
-         <!-- <PrimaSezione/> -->
+          <PrimaSezione/>
+          <SecondaSezione/>
        </main> 
 
        <!-- <Footer/> -->
@@ -14,14 +15,16 @@
 
 <script>
  import Header from './components/Header.vue';
-//  import PrimaSezione from './components/PrimaSezione.vue';
+  import PrimaSezione from './components/PrimaSezione.vue';
+   import SecondaSezione from './components/SecondaSezione.vue';
 //  import Footer from './components/Footer.vue';
 
 export default {
   name: 'App',
   components: {
      Header,
-    //  PrimaSezione,
+      PrimaSezione,
+      SecondaSezione,
     //  Footer
   }
 }

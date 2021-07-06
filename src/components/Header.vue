@@ -7,7 +7,7 @@
       </a>
 
       <ul>
-          <li v-for="(link,index) in titoli" :key="index" :class="link.current ? 'active' : '' "><a href="link.url" >{{link.text}}</a></li>
+          <li v-for="(link,index) in titoli" :key="index" :class="link.current ? 'active' : '' "><a :href="link.url" >{{link.text}}</a></li>
          
       </ul>
   </header>
@@ -103,8 +103,8 @@ header{
                    &:hover{
                         background: $colore;
                           }
-                    &:active{
-                        border-bottom:blue;
+                   &.active {
+                        background-color: red;
                         
                     }
               }
