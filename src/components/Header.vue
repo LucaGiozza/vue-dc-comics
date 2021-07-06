@@ -28,6 +28,36 @@ export default {
 }
 </script>
 
-<style lang="" scoped>
+<style lang="scss" scoped>
+
+header{
+    display: flex;
+    height: 100px;
+    line-height: 100px;
+    justify-content: space-between;
+
+    img{
+        margin-left:200px;
+    }
+
+    ul{
+        display: flex;
+        list-style: none;
+         li{
+            margin:0 15px;
+             a{
+                text-decoration: none;
+                color:black;
+                   &:hover{
+                        background: lightsteelblue;
+                          }
+              }
+
+              
+           
+        }
+        
+    }
+}
 
 </style>

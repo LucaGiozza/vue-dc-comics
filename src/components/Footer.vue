@@ -8,6 +8,6 @@ export default {
 }
 </script>
 
-<style lang="" scoped>
+<style ang="scss" scoped>
 
 </style>
