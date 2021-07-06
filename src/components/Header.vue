@@ -7,16 +7,8 @@
       </a>
 
       <ul>
-          <li><a href="#">characters</a></li>
-          <li><a href="#">comics</a></li>
-          <li><a href="#">movies</a></li>
-          <li><a href="#">tv</a></li>
-          <li><a href="#">games</a></li>
-          <li><a href="#">collectibles</a></li>
-          <li><a href="#">videos</a></li>
-          <li><a href="#">fans</a></li>
-          <li><a href="#">news</a></li>
-          <li><a href="#">shop</a></li>
+          <li v-for="(link,index) in titoli" :key="index" :class="link.current ? 'active' : '' "><a href="link.url" >{{link.text}}</a></li>
+         
       </ul>
   </header>
   
@@ -24,7 +16,64 @@
 
 <script>
 export default {
-    name : 'Header'
+    name : 'Header',
+    data(){
+        return{
+            titoli:[
+               {
+                   text: 'characters',
+                   url : '#',
+                   current : false
+               },
+                {
+                   text: 'comics',
+                   url : '#',
+                   current : true
+               },
+                {
+                   text: 'movies',
+                   url : '#',
+                   current : false
+               },
+                {
+                   text: 'tv',
+                   url : '#',
+                   current : false
+               },
+                {
+                   text: 'games',
+                   url : '#',
+                   current : false
+               },
+                {
+                   text: 'collectibles',
+                   url : '#',
+                   current : false
+               },
+                {
+                   text: 'videos',
+                   url : '#',
+                   current : false
+               },
+                {
+                   text: 'fans',
+                   url : '#',
+                   current : false
+               },
+                {
+                   text: 'news',
+                   url : '#',
+                   current : false
+               },
+                {
+                   text: 'shop',
+                   url : '#',
+                   current : false
+               }
+
+            ]
+        }
+    }
 
 }
 </script>
@@ -54,6 +103,10 @@ header{
                    &:hover{
                         background: $colore;
                           }
+                    &:active{
+                        border-bottom:blue;
+                        
+                    }
               }
 
               
