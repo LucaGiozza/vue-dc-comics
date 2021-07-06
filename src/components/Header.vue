@@ -24,17 +24,20 @@
 
 <script>
 export default {
+    name : 'Header'
 
 }
 </script>
 
 <style lang="scss" scoped>
+@import '../style/vars.scss';
 
 header{
     display: flex;
     height: 100px;
     line-height: 100px;
     justify-content: space-between;
+    margin-top: $margine-alto;
 
     img{
         margin-left:200px;
@@ -49,7 +52,7 @@ header{
                 text-decoration: none;
                 color:black;
                    &:hover{
-                        background: lightsteelblue;
+                        background: $colore;
                           }
               }
 
