@@ -8,7 +8,12 @@
           <SecondaSezione/>
        </main> 
 
-       <!-- <Footer/> -->
+       <footer>
+          <Footer/>
+
+       </footer>
+
+       
         
   </div>
 </template>
@@ -17,7 +22,7 @@
  import Header from './components/Header.vue';
   import PrimaSezione from './components/PrimaSezione.vue';
    import SecondaSezione from './components/SecondaSezione.vue';
-//  import Footer from './components/Footer.vue';
+  import Footer from './components/Footer.vue';
 
 export default {
   name: 'App',
@@ -25,7 +30,7 @@ export default {
      Header,
       PrimaSezione,
       SecondaSezione,
-    //  Footer
+      Footer
   }
 }
 </script>
