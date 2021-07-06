@@ -1,6 +1,7 @@
 <template>
   <header>
       <a href="#">
+          <!-- metto il logo -->
 
           <img src="@/assets/dc-logo.png" alt="dc-logo">
       </a>
