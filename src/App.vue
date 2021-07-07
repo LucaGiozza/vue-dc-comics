@@ -3,6 +3,14 @@
     
        <Header/>
 
+       <div class="jumbotrone">
+         <Jumbotrone/>
+
+       </div>
+       <div class="sezione-copertine">
+
+       </div>
+
         <main>
           <PrimaSezione/>
           <SecondaSezione/>
@@ -21,6 +29,7 @@
 
 <script>
   import Header from './components/Header.vue';
+  import Jumbotrone from './components/Jumbotrone.vue';
   import PrimaSezione from './components/PrimaSezione.vue';
   import SecondaSezione from './components/SecondaSezione.vue';
   import Footer from './components/Footer.vue';
@@ -29,7 +38,8 @@
 export default {
   name: 'App',
   components: {
-     Header,
+      Header,
+      Jumbotrone,
       PrimaSezione,
       SecondaSezione,
       Footer,

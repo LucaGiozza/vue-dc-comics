@@ -14,6 +14,8 @@
         <span>Dc Power Visa</span>
       </a>
 
+      
+
     </div>
     
 
@@ -43,11 +45,12 @@ export default {
         
         img{
             margin-left:80px;
-            height: 90px;
+            height: 60px;
             vertical-align:middle;
            }
            span{
                 margin-left:10px;
+                font-size:12px;
 
            }
            a{
