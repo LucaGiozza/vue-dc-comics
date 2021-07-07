@@ -25,7 +25,7 @@ export default {
 
 <style lang="scss" scoped>
 .container-footer-inferiore{
-    height:150px;
+    height:100px;
     background-color: rgba(0, 0, 0, 0.822);
     display:flex;
     align-items: center;
