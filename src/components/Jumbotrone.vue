@@ -1,6 +1,7 @@
 <template>
 <div class="jumbo">
      <img src="../assets/jumbotron.jpg" alt="">
+     <button class="bottone-jumbo">current series</button>
 
 </div>
   
@@ -23,6 +24,20 @@ export default {
          
 
 
+    }
+    .bottone-jumbo{
+       padding: 10px 30px;
+       
+       margin-top: -20%;
+       margin-left: 192px;
+       text-transform: uppercase;
+       color:white;
+       background-color: rgb(0, 119, 255);
+       border:none;
+       &:hover{
+           opacity:0.5;
+           cursor:pointer
+       }
     }
 }
 
